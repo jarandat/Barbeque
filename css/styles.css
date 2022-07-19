@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc10700;
+    --secundario: #ff9a02;
+    --gris: #757575;
+    --grisClaro: #dfe9f3;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+  }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 220rem;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0 8px 32px 0 rgba(168, 156, 156, 0.308);
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+ul, li {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 235, 205);
+}
+
+header {
+    max-width: 220rem;
+    height: 10rem;
+    background-color: rgb(34, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding: 10rem;
+    max-width: 220rem;
+    background-color: var(--secundario);
+    color: rgb(255, 235, 205);
+}
+
+footer h4 {
+    padding: 5rem;
+    margin-left: 5rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+.titulo {
+    margin: 0;
+    color: rgb(255, 235, 205);
+    font-size: 2.5rem;
+}
+
+.titulo span {
+    font-weight: 700;
+    color: rgb(236, 118, 1);
+    font-size: 6rem;
+}
+
+.logo {
+    font-size: 4rem;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacionPrincipal {
+    display: flex;
+    flex-direction: column;
+}
+
+.navegacionPrincipal a{
+    display: block;
+    color: var(--blanco);
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navegacionPrincipal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
+.carruselHome {
+    padding: 5rem 0 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.photoHome {
+    width: 90%;
+}
+
+.carruselHome h1, p{
+    margin: 0 5rem 5 5rem;
+}
+
+.productSegment {
+    display: flex;
+    flex-direction: column;
+    max-width: 220rem;
+}
+
+.navegacionSegment {
+    justify-content: space-evenly;
+    padding: 5rem 8rem 5rem 8rem;
+    max-width: 220rem;
+}
+
+.productsAnalisis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 8rem;
+    align-self: center;
+    max-width: 220rem;
+}
+
+.productsAnalisis img {
+    width: 100%;
+    height: auto;
+}
+
+.bbqCatalogo {
+    max-width: 220rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.bbqCatalogo img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+}
+
+.navFooter {
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.navFooter h4{
+    padding: 0.8rem;
+    margin: 0;
+}
+
+.linkHoverNavs:hover{
+    color: rgb(40, 40, 82);
+    cursor: pointer;
+}
+
+.gMap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.pCenter {
+    text-align: center;
+}
+
+.ContainerAcc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5;
+    max-width: 220rem;
+    gap: 1.5rem;
+    justify-items: center;
+}
+
+.ContainerAcc img {
+    width: 100%;
+    height: auto;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputForm {
+    text-decoration: none;
+    width: 150rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.textAreaForm {
+    width: 150rem;
+    height: 30rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
+}
+
+.allButtons {
+    margin: 2rem 0 2rem 0;
+    width: 150rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid rgb(192, 188, 188);
+}
+
+.allButtons:hover {
+    background-color: rgb(236, 118, 1);
+    cursor: pointer;
+}
+
+.containerModelosRecetas {
+    padding: 10rem;
+}
+
+.containerModelosRecetas h1{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.modelo1 {
+    margin-bottom: 5rem;   
+}
+
+.modelo1 img {
+    width: 80%;
+}
+
+.modelo1 h3 {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    header {
+        max-width: 220rem;
+        height: 10rem;
+        background-color: rgb(34, 19, 19);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navegacionPrincipal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .carruselHome {
+        padding: 5rem 0 5rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .titulo span {
+        font-weight: 700;
+        color: rgb(236, 118, 1);
+        font-size: 6rem;
+    }
+    
+    .logo {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navFooter {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .navFooter h4{
+        padding: 0.8rem;
+        margin: 0;
+    }
+    
+    .linkHoverNavs:hover{
+        color: rgb(40, 40, 82);
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {
+    .formulario {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .inputForm {
+        text-decoration: none;
+        width: 50rem;
+        padding: 2rem;
+        border-radius: 1rem;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .textAreaForm {
+        width: 20%;
+        height: auto;
+        font-size: 2rem;
+        border-radius: 1rem;
+        text-transform: uppercase;
+    }
+    
+    .allButtons {
+        margin: 2rem 0 2rem 0;
+        width: auto;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 1px solid rgb(192, 188, 188);
+    }
+    
+    .allButtons:hover {
+        background-color: rgb(236, 118, 1);
+        cursor: pointer;
+    }
+
+    .ContainerAcc {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .photoHome {
+        width: 90%;
+    }
+
+    .productsAnalisis {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .bbqCatalogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .navegacionSegment {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .navegacionSegment img{
+        width: 10rem;
+        margin-bottom: 5rem;
+    }
+}
+
+@media (max-width: 2048px) {
+    .formulario {
+        width: 80%;
+    }
+
+    .inputForm {
+        width: 100%;
+    }
+
+    .textAreaForm {
+        width: 80%;
+    }
+
+    .allButtons {
+        width: 80%;
+    }
+}
