@@ -4,40 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
     <title>Barbacoas Online - Contacto</title>
 </head>
 <body>
-    <header class="titulo">
-        <a href="../index.html"><h1><p class="logo"><span>Bar</span>beque</p></h1></a>
-    </header>
-        <div class="nav-bg">
-            <nav class="navegacionPrincipal contenedor">
-                <a class="linkHoverNavs" href="./modelos.html"><h4>Modelos</h4></a></a>
-                <a class="linkHoverNavs" href="./accesorios.html"><h4>Accesorios</h4></a></a>
-                <a class="linkHoverNavs" href="./recetas.html"><h4>Recetas</h4></a></a>
-                <a class="linkHoverNavs" href="./contacto.html"><h4>Contacto</h4></a></a>
-            </nav>
-      </div>
-    <form action="" method="get">
-        <div class="formulario">
-            <h1>Hablamos?</h1>
-            <div>
-                <input class="inputForm" type="text" placeholder="Nombre" id="name">
-            </div>
-            <div>
-                <input class="inputForm" type="email" name="" id="" placeholder="Email">
-            </div>
-            <div>
-                <input class="inputForm" type="text" name="" id="" placeholder="Asunto">
-            </div>
-            <textarea class="textAreaForm" name="" id="" cols="30" rows="10"></textarea>
-            <div>
-                <button class="allButtons" type="submit">Enviar</button>
-            </div>
+        <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg nav-bg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="/img/logo-header.png" alt="logo de las barbacoas">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./modelos.html">Modelos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./accesorios.html">Accesorios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./recetas.html">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </form>
+      </nav>
+      <!-- End NAV BAR -->
+
+      <!-- Inicia Formulario -->
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+
+            <label for="exampleFormControlInput1" class="form-label">Edad</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Edad">
+
+            <label for="exampleFormControlInput1" class="form-label">Ingresa tu correo</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Motivo</label>
+            <textarea class="form-control" id="textArea1" rows="10"></textarea>
+        </div>
+      <!-- Termina Formulario -->
+    
     <footer class="footer">
         <div class="navFooter">
             <a class="navFooter linkHoverNavs" href="../index.html"><h4>Home</h4></a>
@@ -52,6 +73,7 @@
         <p class="pCenter">Las ventas de las barbacoas se realizan a travez de Amazon y sus depositos se encargan de distribuir el producto.</p>
         <p class="pCenter">Pagina web realizada por Tomas Aranda - Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
 
