@@ -393,7 +393,6 @@ footer h4 {
     }
 }
 
-<<<<<<< HEAD
 .navbar {
     font-size: 2.2rem;
     margin-bottom: 2rem;
@@ -434,7 +433,6 @@ footer h4 {
     height: 15rem;
 }
 
-=======
 @media (min-width: 768px) {
     .nav-link:hover {
         transform: translateY(20px);
@@ -451,4 +449,3 @@ footer h4 {
         75%{color: rgb(216, 23, 23);}
     }
 }
->>>>>>> animation
