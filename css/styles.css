@@ -434,6 +434,7 @@ footer h4 {
 }
 
 @media (min-width: 768px) {
+    
     .nav-link:hover {
         transform: translateY(20px);
         transition: transform 2s;
