@@ -1,0 +1,100 @@
+.contenedor{
+    max-width: 120rem;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+.carruselHome {
+    padding: 5rem 0 5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.photoHome {
+    width: 90%;
+}
+
+.carruselHome h1, p{
+    margin: 0 5rem 5 5rem;
+}
+
+.productSegment {
+    display: flex;
+    flex-direction: column;
+    max-width: 220rem;
+}
+
+.navegacionSegment {
+    justify-content: space-evenly;
+    padding: 5rem 8rem 5rem 8rem;
+    max-width: 220rem;
+}
+
+.productsAnalisis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 8rem;
+    justify-items: center;
+    max-width: 220rem;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.bbqCatalogo {
+    max-width: 220rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+    justify-items: center;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+.ContainerAcc {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 5;
+    max-width: 220rem;
+    gap: 1.5rem;
+    justify-items: center;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.containerModelosRecetas {
+    padding: 10rem;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
+
+.modelo1 {
+    margin-bottom: 5rem;   
+
+    img {
+        width: 80%;
+    }
+
+    h3 {
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+}
+
+.card {
+    width: 75%;
+}
