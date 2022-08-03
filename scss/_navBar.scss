@@ -1,3 +1,5 @@
+@use 'variables';
+
 .navbar {
     font-size: 2.2rem;
     margin-bottom: 2rem;
@@ -5,10 +7,13 @@
     font-family: 'Roboto';
 }
 
-.nav-link:hover {
-    color: #e27713;
-    border-radius: 2rem;
-    text-transform: uppercase;
+.nav-link {
+    
+    &hover {
+        color: variables.$hover-color;
+        border-radius: 2rem;
+        text-transform: uppercase;
+    }
 }
 
 .navbar-toggler {
@@ -27,5 +32,5 @@
 }
 
 .nav-bg{
-    background-color: var(--secundario);
+    background-color: variables.$secondary-orange;
 }

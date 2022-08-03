@@ -1,3 +1,5 @@
+@use 'variables';
+
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -44,13 +46,13 @@ ul, li {
 
 a {
     text-decoration: none;
-    color: rgb(255, 235, 205);
+    color: variables.$secondary-grey;
 }
 
 header {
     max-width: 220rem;
     height: 10rem;
-    background-color: rgb(34, 19, 19);
+    background-color: variables.$base-dark;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +61,8 @@ header {
 footer {
     padding: 10rem;
     max-width: 220rem;
-    background-color: var(--secundario);
-    color: rgb(255, 235, 205);
+    background-color: variables.$secondary-orange;
+    color: variables.$secondary-grey;
 }
 
 footer h4 {

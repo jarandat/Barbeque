@@ -1,13 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-:root {
-  --blanco: #ffffff;
-  --oscuro: #212121;
-  --primario: #ffc10700;
-  --secundario: #f0b86e;
-  --gris: #757575;
-  --grisClaro: #dfe9f3;
-}
-
 .navFooter {
   display: flex;
   justify-content: center;
@@ -19,7 +10,7 @@
   margin: 0;
 }
 
-.linkHoverNavs:hover {
+.linkHoverNavshover {
   color: rgb(40, 40, 82);
   cursor: pointer;
 }
@@ -160,11 +151,11 @@
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
-  border: 1px solid rgb(192, 188, 188);
+  border: 1px solid #757575;
 }
 
-.allButtons:hover {
-  background-color: rgb(236, 118, 1);
+.allButtonshover {
+  background-color: #e27713;
   cursor: pointer;
 }
 
@@ -232,7 +223,7 @@ ul, li {
 
 a {
   text-decoration: none;
-  color: rgb(255, 235, 205);
+  color: #dfe9f3;
 }
 
 header {
@@ -247,8 +238,8 @@ header {
 footer {
   padding: 10rem;
   max-width: 220rem;
-  background-color: var(--secundario);
-  color: rgb(255, 235, 205);
+  background-color: #f0b86e;
+  color: #dfe9f3;
 }
 
 footer h4 {
@@ -289,7 +280,7 @@ footer h4 {
     padding: 0.8rem;
     margin: 0;
   }
-  .linkHoverNavs:hover {
+  .linkHoverNavshover {
     color: rgb(40, 40, 82);
     cursor: pointer;
   }
@@ -325,10 +316,10 @@ footer h4 {
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
-    border: 1px solid rgb(192, 188, 188);
+    border: 1px solid #dfe9f3;
   }
-  .allButtons:hover {
-    background-color: rgb(236, 118, 1);
+  .allButtonshover {
+    background-color: #e27713;
     cursor: pointer;
   }
   .ContainerAcc {
@@ -406,8 +397,8 @@ footer h4 {
   font-family: "Roboto";
 }
 
-.nav-link:hover {
-  color: #e27713;
+.nav-linkhover {
+  color: rgb(40, 40, 82);
   border-radius: 2rem;
   text-transform: uppercase;
 }
@@ -428,7 +419,7 @@ footer h4 {
 }
 
 .nav-bg {
-  background-color: var(--secundario);
+  background-color: #f0b86e;
 }
 
 /*# sourceMappingURL=styles.css.map */
