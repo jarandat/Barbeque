@@ -142,21 +142,23 @@
   text-transform: uppercase;
 }
 
-.allButtons {
+.allButtons, .btns-rounded {
   margin: 2rem 0 2rem 0;
   width: 150rem;
   padding: 1.5rem;
-  border-radius: 0.5rem;
   font-size: 1.8rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   border: 1px solid #757575;
 }
-
-.allButtonshover {
+.allButtons:hover, .btns-rounded:hover {
   background-color: #e27713;
   cursor: pointer;
+}
+
+.btns-rounded {
+  border-radius: 0.5rem;
 }
 
 .mb-3 {
@@ -262,8 +264,8 @@ footer h4 {
   }
   .carruselHome {
     padding: 5rem 0 5rem 5rem;
-    display: flex;
     flex-direction: column;
+    display: flex;
     justify-items: center;
     align-items: center;
   }
@@ -307,7 +309,7 @@ footer h4 {
     border-radius: 1rem;
     text-transform: uppercase;
   }
-  .allButtons {
+  .allButtons, .btns-rounded {
     margin: 2rem 0 2rem 0;
     width: auto;
     padding: 1.5rem;
@@ -359,7 +361,7 @@ footer h4 {
   .textAreaForm {
     width: 80%;
   }
-  .allButtons {
+  .allButtons, .btns-rounded {
     width: 80%;
   }
 }

@@ -1,4 +1,5 @@
 @use 'variables';
+@import 'mixins';
 
 @media (min-width: 768px) {
     header {
@@ -17,10 +18,8 @@
 
     .carruselHome {
         padding: 5rem 0 5rem 5rem;
-        display: flex;
         flex-direction: column;
-        justify-items: center;
-        align-items: center;
+        @include d-flex(center, center);
     }
 
 }
