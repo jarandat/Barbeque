@@ -27,20 +27,21 @@
     margin: 2rem 0 2rem 0;
     width: 150rem;
     padding: 1.5rem;
-    border-radius: 0.5rem;
     font-size: 1.8rem;
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
     border: 1px solid variables.$primary-grey;
-}
 
-.allButtons {
-
-    &hover{
+    &:hover{
         background-color: variables.$primary-orange;
         cursor: pointer;   
     }
+}
+
+.btns-rounded {
+    @extend .allButtons;
+    border-radius: 0.5rem;
 }
 
 .mb-3 {
