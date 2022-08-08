@@ -75,7 +75,7 @@
   max-width: 220rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 5rem;
   justify-items: center;
 }
 .bbqCatalogo img {
@@ -106,17 +106,19 @@
 
 .modelo1 {
   margin-bottom: 5rem;
+  border-bottom: 1px solid grey;
 }
 .modelo1 img {
-  width: 80%;
+  width: 40%;
+  margin-bottom: 1rem;
 }
 .modelo1 h3 {
-  font-size: 2rem;
-  text-decoration: underline;
+  font-size: 2.5rem;
 }
 
 .card {
   width: 75%;
+  justify-content: center;
 }
 
 .formulario {
@@ -239,6 +241,7 @@ header {
 
 footer {
   padding: 10rem;
+  margin-top: 3rem;
   max-width: 220rem;
   background-color: #f0b86e;
   color: #dfe9f3;
